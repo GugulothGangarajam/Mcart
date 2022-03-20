@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 1px solid red; */
+  padding-top: 30px;
+  background-color: #faf9f8;
+}
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  right: -160px;
+}
+.sub-head {
+  font-size: 20px;
+  font-weight: 100;
+  position: relative;
+  left: -160px;
+}
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  color: black;
+}
+.header__option > h6 {
+  font-size: 15px;
+  font-weight: normal;
+}
+.header__optionLineOne {
+  font-size: 15px;
+  font-weight: 400;
+}
+.header__optionLineTwo {
+  font-size: 15px;
+  font-weight: 400;
+}
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: none;
+}
+.title-link {
+  font-size: 40px;
+  position: relative;
+  left: 170px;
+}
+.header__title {
+  color: #e50010;
+}

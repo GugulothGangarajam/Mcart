@@ -1,0 +1,50 @@
+.checkoutProduct {
+  width: 800px;
+  height: 180px;
+  /* border: 1px solid red; */
+  position: relative;
+  left: 80px;
+  top: 10px;
+}
+.checkoutProduct > img {
+  width: 150px;
+  height: 180px;
+}
+.checkoutProduct__off {
+  position: relative;
+  left: -150px;
+  top: -10px;
+  color: black;
+  background-color: #f4eddd;
+}
+.checkoutProduct__shirt_name {
+  font-size: 20px;
+  font-weight: normal;
+  position: relative;
+  top: -170px;
+  left: 180px;
+}
+.checkoutProduct__price {
+  font-size: 15px;
+  position: relative;
+  top: -168px;
+  left: 180px;
+}
+.checkProduct__id {
+  font-size: 13px;
+  position: relative;
+  top: -140px;
+  left: 138px;
+}
+.checkoutProduct__remove {
+  font-size: 15px;
+  font-weight: normal;
+  border: 1px solid black;
+  width: fit-content;
+  position: relative;
+  left: 35px;
+  top: -94px;
+  color: white;
+  background-color: black;
+  padding: 8px;
+}

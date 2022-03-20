@@ -1,0 +1,56 @@
+.shirts {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #faf9f8;
+}
+.t-shirts-title {
+  font-size: 40px;
+  text-align: left;
+  padding-bottom: 10px;
+  padding-left: 38px;
+}
+.shirt {
+  padding-bottom: 10px;
+}
+.shirt > img {
+  padding-left: 20px;
+  width: 300px;
+  height: 300px;
+}
+.off {
+  position: relative;
+  left: -300px;
+  top: -24px;
+  padding: 3px 5px;
+  /* border: 1px solid red; */
+  background-color: #f4eddd;
+}
+.shirt-name {
+  font-size: 20px;
+  font-weight: normal;
+  position: relative;
+  left: 20px;
+  padding-top: 20px;
+}
+.price {
+  font-size: 15px;
+  position: relative;
+  left: 20px;
+}
+.buy {
+  font-size: 15px;
+  border: 1px solid black;
+  width: 60px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -20px;
+  left: 256px;
+  color: rgb(252, 248, 248);
+  background-color: black;
+  cursor: pointer;
+}

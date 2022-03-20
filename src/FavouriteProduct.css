@@ -1,0 +1,40 @@
+/* .shirt-name {
+  font-size: 20px;
+  font-weight: normal;
+  position: relative;
+  left: -126px;
+  padding-top: 20px;
+}
+.price {
+  font-size: 15px;
+  position: relative;
+  left: -172px;
+} */
+.Fav-shirt-name {
+  font-size: 20px;
+  font-weight: normal;
+  position: relative;
+  left: -110px;
+  padding-top: 20px;
+}
+.Fav-price {
+  font-size: 15px;
+  position: relative;
+  left: -167px;
+}
+.Fav-buy {
+  position: relative;
+  left: 20px;
+  top: 20px;
+  font-size: 20px;
+  width: 295px;
+  height: 40px;
+  /* border: 1px solid red; */
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 400;
+}

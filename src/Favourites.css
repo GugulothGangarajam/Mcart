@@ -1,0 +1,25 @@
+.favourite {
+  text-align: center;
+  background-color: #faf9f8;
+  height: 100%;
+}
+.favourite > div > h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 40px;
+  padding-top: 30px;
+}
+.favourite > div > h2 {
+  font-size: 20px;
+  padding-top: 80px;
+  font-weight: 600;
+}
+.favourite > div > p {
+  margin: auto;
+  width: 500px;
+  padding-top: 15px;
+  /* border: 1px solid red; */
+}
+.favourite__title {
+  padding-bottom: 20px;
+}

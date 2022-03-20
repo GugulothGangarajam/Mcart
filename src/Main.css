@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 120px;
+  background-color: #faf9f8;
+}
+.link > img {
+  width: 350px;
+  height: 300px;
+  /* border: 1px solid red; */
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.link > .sub-main {
+  color: gray;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+}
+.link > h6 {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+}
